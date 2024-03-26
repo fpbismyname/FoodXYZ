@@ -43,5 +43,10 @@ namespace FoodXYZ.Halaman.AdminPage
         {
             loadForm(new LogPage());
         }
+
+        private void Logout(object sender, EventArgs e)
+        {
+            PH.Navigate(this, new LoginPage.LoginPage());
+        }
     }
 }

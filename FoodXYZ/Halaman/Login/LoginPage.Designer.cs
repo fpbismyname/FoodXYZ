@@ -41,28 +41,36 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(422, 336);
+            this.button1.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Yu Gothic UI", 8F, System.Drawing.FontStyle.Bold);
+            this.button1.Location = new System.Drawing.Point(430, 366);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(79, 32);
             this.button1.TabIndex = 0;
             this.button1.Text = "Reset";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.onreset);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(299, 336);
+            this.button2.BackColor = System.Drawing.Color.CornflowerBlue;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Font = new System.Drawing.Font("Yu Gothic UI", 8F, System.Drawing.FontStyle.Bold);
+            this.button2.Location = new System.Drawing.Point(307, 366);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(79, 32);
             this.button2.TabIndex = 0;
             this.button2.Text = "Login";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.onClick);
             // 
             // tb_passwd
             // 
             this.tb_passwd.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_passwd.Location = new System.Drawing.Point(299, 290);
+            this.tb_passwd.Location = new System.Drawing.Point(307, 320);
             this.tb_passwd.Name = "tb_passwd";
             this.tb_passwd.Size = new System.Drawing.Size(202, 33);
             this.tb_passwd.TabIndex = 1;
@@ -72,7 +80,7 @@
             // tb_user
             // 
             this.tb_user.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_user.Location = new System.Drawing.Point(299, 245);
+            this.tb_user.Location = new System.Drawing.Point(307, 275);
             this.tb_user.Name = "tb_user";
             this.tb_user.Size = new System.Drawing.Size(202, 33);
             this.tb_user.TabIndex = 1;
@@ -83,7 +91,7 @@
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(333, 197);
+            this.label1.Location = new System.Drawing.Point(337, 210);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(142, 44);
             this.label1.TabIndex = 2;
@@ -94,7 +102,7 @@
             // 
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(343, 83);
+            this.pictureBox1.Location = new System.Drawing.Point(347, 83);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(115, 110);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
