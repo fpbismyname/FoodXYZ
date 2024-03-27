@@ -48,5 +48,20 @@ namespace FoodXYZ.Halaman.AdminPage
         {
             PH.Navigate(this, new LoginPage.LoginPage());
         }
+
+        private void FormKelolaUser(object sender, EventArgs e)
+        {
+            loadForm(new KelolaUser());
+        }
+
+        private void KelolaLaporan(object sender, EventArgs e)
+        {
+            loadForm(new LaporanPenjualan());
+        }
+
+        private void LogActivity(object sender, EventArgs e)
+        {
+            loadForm(new LogPage());
+        }
     }
 }

@@ -69,6 +69,8 @@
             // 
             // tb_passwd
             // 
+            this.tb_passwd.AutoCompleteCustomSource.AddRange(new string[] {
+            "Fajar123"});
             this.tb_passwd.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tb_passwd.Location = new System.Drawing.Point(307, 320);
             this.tb_passwd.Name = "tb_passwd";
@@ -79,6 +81,8 @@
             // 
             // tb_user
             // 
+            this.tb_user.AutoCompleteCustomSource.AddRange(new string[] {
+            "Fajar"});
             this.tb_user.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tb_user.Location = new System.Drawing.Point(307, 275);
             this.tb_user.Name = "tb_user";
