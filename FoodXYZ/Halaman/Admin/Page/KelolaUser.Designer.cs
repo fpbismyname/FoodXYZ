@@ -47,6 +47,7 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.button4 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,7 +65,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Yu Gothic UI", 8F, System.Drawing.FontStyle.Bold);
-            this.label2.Location = new System.Drawing.Point(85, 72);
+            this.label2.Location = new System.Drawing.Point(22, 72);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(55, 13);
             this.label2.TabIndex = 1;
@@ -76,16 +77,16 @@
             this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.comboBox1.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold);
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(88, 93);
+            this.comboBox1.Location = new System.Drawing.Point(31, 93);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(166, 29);
+            this.comboBox1.Size = new System.Drawing.Size(215, 29);
             this.comboBox1.TabIndex = 2;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Yu Gothic UI", 8F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(85, 135);
+            this.label3.Location = new System.Drawing.Point(22, 135);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 13);
             this.label3.TabIndex = 1;
@@ -96,16 +97,16 @@
             this.textBox1.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold);
-            this.textBox1.Location = new System.Drawing.Point(89, 156);
+            this.textBox1.Location = new System.Drawing.Point(32, 156);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(166, 22);
+            this.textBox1.Size = new System.Drawing.Size(215, 22);
             this.textBox1.TabIndex = 3;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Yu Gothic UI", 8F, System.Drawing.FontStyle.Bold);
-            this.label4.Location = new System.Drawing.Point(85, 190);
+            this.label4.Location = new System.Drawing.Point(22, 190);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(47, 13);
             this.label4.TabIndex = 1;
@@ -116,16 +117,16 @@
             this.textBox2.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox2.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold);
-            this.textBox2.Location = new System.Drawing.Point(89, 211);
+            this.textBox2.Location = new System.Drawing.Point(32, 211);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(166, 22);
+            this.textBox2.Size = new System.Drawing.Size(215, 22);
             this.textBox2.TabIndex = 3;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Yu Gothic UI", 8F, System.Drawing.FontStyle.Bold);
-            this.label5.Location = new System.Drawing.Point(303, 72);
+            this.label5.Location = new System.Drawing.Point(309, 72);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(43, 13);
             this.label5.TabIndex = 1;
@@ -135,7 +136,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Yu Gothic UI", 8F, System.Drawing.FontStyle.Bold);
-            this.label6.Location = new System.Drawing.Point(303, 135);
+            this.label6.Location = new System.Drawing.Point(309, 135);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(58, 13);
             this.label6.TabIndex = 1;
@@ -146,9 +147,9 @@
             this.textBox3.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox3.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold);
-            this.textBox3.Location = new System.Drawing.Point(307, 93);
+            this.textBox3.Location = new System.Drawing.Point(313, 93);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(166, 22);
+            this.textBox3.Size = new System.Drawing.Size(215, 22);
             this.textBox3.TabIndex = 3;
             // 
             // textBox4
@@ -156,16 +157,16 @@
             this.textBox4.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox4.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold);
-            this.textBox4.Location = new System.Drawing.Point(307, 156);
+            this.textBox4.Location = new System.Drawing.Point(313, 156);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(166, 22);
+            this.textBox4.Size = new System.Drawing.Size(215, 22);
             this.textBox4.TabIndex = 3;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Yu Gothic UI", 8F, System.Drawing.FontStyle.Bold);
-            this.label7.Location = new System.Drawing.Point(303, 190);
+            this.label7.Location = new System.Drawing.Point(309, 190);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(55, 13);
             this.label7.TabIndex = 1;
@@ -176,9 +177,9 @@
             this.textBox5.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.textBox5.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox5.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold);
-            this.textBox5.Location = new System.Drawing.Point(307, 211);
+            this.textBox5.Location = new System.Drawing.Point(313, 211);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(166, 22);
+            this.textBox5.Size = new System.Drawing.Size(215, 22);
             this.textBox5.TabIndex = 3;
             // 
             // button1
@@ -225,7 +226,7 @@
             this.textBox6.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.textBox6.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox6.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold);
-            this.textBox6.Location = new System.Drawing.Point(182, 308);
+            this.textBox6.Location = new System.Drawing.Point(353, 317);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(118, 22);
             this.textBox6.TabIndex = 5;
@@ -236,7 +237,7 @@
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Yu Gothic UI", 8F, System.Drawing.FontStyle.Bold);
-            this.button4.Location = new System.Drawing.Point(306, 307);
+            this.button4.Location = new System.Drawing.Point(477, 316);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(55, 23);
             this.button4.TabIndex = 4;
@@ -250,6 +251,16 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(508, 126);
             this.dataGridView1.TabIndex = 6;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold);
+            this.label8.Location = new System.Drawing.Point(21, 315);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(92, 21);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Daftar User";
             // 
             // KelolaUser
             // 
@@ -274,6 +285,7 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "KelolaUser";
@@ -307,5 +319,6 @@
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label label8;
     }
 }

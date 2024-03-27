@@ -71,11 +71,32 @@
     <Compile Include="Halaman\Admin\Page\LogPage.Designer.cs">
       <DependentUpon>LogPage.cs</DependentUpon>
     </Compile>
-    <Compile Include="Halaman\Automation.cs" />
-    <Compile Include="Halaman\Login\LoginPage.cs">
+    <Compile Include="Halaman\Gudang\Page\KelolaBarang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Halaman\Login\LoginPage.Designer.cs">
+    <Compile Include="Halaman\Kasir\Page\KelolaTransaksi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Halaman\Kasir\Page\KelolaTransaksi.Designer.cs">
+      <DependentUpon>KelolaTransaksi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halaman\MainPage\Tools\Automation.cs" />
+    <Compile Include="Halaman\Gudang\GudangPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Halaman\Gudang\GudangPage.Designer.cs">
+      <DependentUpon>GudangPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halaman\Kasir\KasirPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Halaman\Kasir\KasirPage.Designer.cs">
+      <DependentUpon>KasirPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Halaman\MainPage\LoginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Halaman\MainPage\LoginPage.Designer.cs">
       <DependentUpon>LoginPage.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -92,7 +113,19 @@
     <EmbeddedResource Include="Halaman\Admin\Page\LogPage.resx">
       <DependentUpon>LogPage.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Halaman\Login\LoginPage.resx">
+    <EmbeddedResource Include="Halaman\Gudang\GudangPage.resx">
+      <DependentUpon>GudangPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halaman\Gudang\Page\KelolaBarang.resx">
+      <DependentUpon>KelolaBarang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halaman\Kasir\KasirPage.resx">
+      <DependentUpon>KasirPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halaman\Kasir\Page\KelolaTransaksi.resx">
+      <DependentUpon>KelolaTransaksi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Halaman\MainPage\LoginPage.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -117,9 +150,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Halaman\Cashier\" />
-    <Folder Include="Halaman\Manage\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

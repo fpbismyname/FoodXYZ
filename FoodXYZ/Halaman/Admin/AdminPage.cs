@@ -24,24 +24,9 @@ namespace FoodXYZ.Halaman.AdminPage
             Application.Exit();
         }
 
-        //Load Form
-        public void loadForm(Object form)
-        {
-            if (this.MainPanel.Controls.Count > 0)
-            {
-                this.MainPanel.Controls.RemoveAt(0);
-            }
-            Form f = form as Form;
-            f.TopLevel = false;
-            f.Dock = DockStyle.Fill;
-            this.MainPanel.Controls.Add(f);
-            this.MainPanel.Tag = f;
-            f.Show();
-        }
-
         private void AdminPage_Load(object sender, EventArgs e)
         {
-            loadForm(new LogPage());
+            PH.loadForm(MainPanel, new LogPage());
         }
 
         private void Logout(object sender, EventArgs e)
@@ -51,17 +36,17 @@ namespace FoodXYZ.Halaman.AdminPage
 
         private void FormKelolaUser(object sender, EventArgs e)
         {
-            loadForm(new KelolaUser());
+            PH.loadForm(MainPanel,new KelolaUser());
         }
 
         private void KelolaLaporan(object sender, EventArgs e)
         {
-            loadForm(new LaporanPenjualan());
+            PH.loadForm(MainPanel, new LaporanPenjualan());
         }
 
         private void LogActivity(object sender, EventArgs e)
         {
-            loadForm(new LogPage());
+            PH.loadForm(MainPanel, new LogPage());
         }
     }
 }

@@ -18,11 +18,17 @@ namespace FoodXYZ.Halaman
             page2.Show();
         }
         //Login Checker
-        public void LoginCheck(TextBox user, TextBox pass, Form page1, Form page2)
+        public void LoginCheck(TextBox user, TextBox pass, Form page1)
         {
-            if (user.Text == "Fajar" && pass.Text == "Fajar123")
+            if (user.Text == "Admin" && pass.Text == "adm")
             {
-                Navigate(page1, page2);
+                Navigate(page1, new AdminPage.AdminPage());
+            } else if (user.Text == "Gudang" && pass.Text == "gdg")
+            {
+                Navigate(page1, new GudangPage());
+            } else if (user.Text == "Kasir" && pass.Text == "ksr")
+            {
+                Navigate(page1, new KasirPage());
             } else
             {
                 Msg("Ops..", "Username atau Password tidak sesuai", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -38,6 +44,19 @@ namespace FoodXYZ.Halaman
         {
             tb.Text = text;
             tb.PasswordChar = '\0';
+        }
+        //to Dock the Form
+        public void loadForm(Panel panel, Form f)
+        {
+            if (panel.Controls.Count > 0)
+            {
+                panel.Controls.RemoveAt(0);
+            }
+            f.TopLevel = false;
+            f.Dock = DockStyle.Fill;
+            panel.Controls.Add(f);
+            panel.Tag = f;
+            f.Show();
         }
     }
 }

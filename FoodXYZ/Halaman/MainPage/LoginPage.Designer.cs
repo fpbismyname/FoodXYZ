@@ -115,7 +115,7 @@
             // 
             // exit
             // 
-            this.exit.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.exit.BackColor = System.Drawing.Color.CornflowerBlue;
             this.exit.FlatAppearance.BorderSize = 0;
             this.exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -131,6 +131,7 @@
             // LoginPage
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(816, 489);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
