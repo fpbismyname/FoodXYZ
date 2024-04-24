@@ -47,6 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data_FoodXYZ.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Data_FoodXYZ.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Halaman\Admin\AdminPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -137,6 +142,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Data_FoodXYZ.xsc">
+      <DependentUpon>Data_FoodXYZ.xsd</DependentUpon>
+    </None>
+    <None Include="Data_FoodXYZ.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Data_FoodXYZ.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Data_FoodXYZ.xss">
+      <DependentUpon>Data_FoodXYZ.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

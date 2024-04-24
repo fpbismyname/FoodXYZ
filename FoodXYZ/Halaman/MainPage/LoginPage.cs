@@ -75,7 +75,8 @@ namespace FoodXYZ.Halaman.LoginPage
 
         private void onClick(object sender, EventArgs e)
         {
-            PH.LoginCheck(tb_user, tb_passwd, this);
+            //PH.LoginCheck(tb_user, tb_passwd, this);
+            PH.LoginCheck("Select tipe_user, id_user from tbl_user where username = '"+tb_user.Text+"' and password = '"+tb_passwd.Text+"';", this);
         }
 
         private void button3_Click(object sender, EventArgs e)
